@@ -1,0 +1,55 @@
+/* general body css for background color, font, and font color */
+body
+{
+  background-color: #5E99C5;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+/* changes the colors of the loadout display */
+#pLoadout
+{
+  background-Color: white;
+  color: black;
+}
+
+/* changes the bacground color and font size of the title */
+#title
+{
+  background-color: black;
+  font-size: 36px;
+}
+
+/* for a little spacing */
+div
+{
+  padding: 5px;
+}
+
+/* sliding in animation for select menus */
+@keyframes slideIn
+{
+  0%
+  {
+    transform: translateX(-20%);
+    opacity: 0;
+  }
+  100%
+  {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+/* select menu css for animation as well as size and font */
+select
+{
+  height: 28px;
+  width: 200px;
+  text-align: center;
+  font-size: 18px;
+  animation: slideIn 2s;
+}
